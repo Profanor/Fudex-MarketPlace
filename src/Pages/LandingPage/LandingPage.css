@@ -1,0 +1,142 @@
+.hero-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  border-radius: 8px;
+}
+
+.small-image {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.small-image-clock, .small-image-arrow {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Positioning for large screens */
+.image1 {
+  top: 5%;
+  right: -4%;
+}
+
+.image2 {
+  top: 40%;
+  right: -7%;
+}
+
+.image3 {
+  bottom: 10%;
+  left: 95%;
+}
+
+.image4 {
+  top: 5%;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+.image5 {
+  bottom: -5%;
+  right: 35%;
+  transform: translateX(50%);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .small-image {
+    width: 20px;
+    height: 20px;
+  }
+
+  .small-image-clock, .small-image-arrow {
+    width: 60px;
+    height: 60px;
+  }
+
+  .image1 {
+    top: 30%;
+    right: 10%;
+  }
+
+  .image2 {
+    top: 50%;
+    right: 2%;
+  }
+
+  .image3 {
+    bottom: 15%;
+    left: 90%;
+  }
+
+  .image4 {
+    top: 30%;
+    left: 15%;
+    transform: translateX(-50%);
+  }
+
+  .image5 {
+    bottom: -5%;
+    right: 75%;
+    transform: translateX(50%);
+  }
+}
+
+
+.top-partners-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.partner {
+  flex: none;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.partner img {
+  max-height: 200px;
+  width: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50%));
+  }
+}
+
+.scrolling-wrapper {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+@media (max-width: 600px) {
+  .partner img {
+    max-height: 100px;
+  }
+}
+
+/* custom styles for the Why Choose Us section */
+.why-choose-us-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
