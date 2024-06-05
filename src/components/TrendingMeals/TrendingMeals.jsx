@@ -5,14 +5,14 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './TrendingMeals.css';
 
 const trendingMealsData = [
-  { name: 'Meal 1', image: '/images/egusi.jpeg' },
-  { name: 'Meal 2', image: '/images/spag.webp' },
-  { name: 'Meal 3', image: '/images/yam.jpeg' },
-  { name: 'Meal 4', image: '/images/porridge.jpeg' },
-  { name: 'Meal 5', image: '/images/meal5.jpg' },
-  { name: 'Meal 6', image: '/images/meal6.jpg' },
-  { name: 'Meal 7', image: '/images/meal7.jpg' },
-  { name: 'Meal 8', image: '/images/meal8.jpg' },
+  { name: 'Egusi and Pounded yam', image: '/images/egusi.jpeg' },
+  { name: 'Spaghetti Bolognese', image: '/images/spag.webp' },
+  { name: 'Yam and Egg sauce', image: '/images/yam.jpeg' },
+  { name: 'Yam porridge', image: '/images/porridge.jpeg' },
+  { name: 'Chicken and Chips', image: '/images/chips.jpeg' },
+  { name: 'Jollof rice and Chicken', image: '/images/Jollof-rice.jpeg' },
+  { name: 'Vegetable soup and Fufu', image: '/images/vegetablesoup.jpeg' },
+  { name: 'Catfish Peppersoup', image: '/images/catfish.jpeg' },
 ];
 
 const TrendingMeals = () => {
